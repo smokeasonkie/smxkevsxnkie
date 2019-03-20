@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+.cite-header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./header-png.jpg);
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px; 
+}
+.nav-item-link:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+.nav-item:nth-child(8) {
+    margin-right: 0;
+}
+.cite-logo {
+    align-self: flex-start;
+    /* width: 10px;
+    height: 10px; */
+    margin-right: auto;
+}
+.cite-header .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.cite-navigate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.header-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header-line {
+    background-color: rgb(88, 219, 223);
+    height: 1px;
+    width: 20px;
+    margin-bottom: 10px;
+}
+.cite-title {
+    margin-bottom: 10px;
+}
+.header-desc {
+    margin-bottom: 20px;
+}
+.header-slider {
+    align-self: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-button {
+    margin-bottom: 10px;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 3px;
+    width: 120px;
+    text-align: center;
+}
+.header-circle {
+    border: 1px solid aqua;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.header-circle:hover {
+    background-color: aqua;
+    transition: 0.5s;
+}
+/* main */
+.main-about {
+    height: 50vh;
+    background-color: whitesmoke;
+}
+.main-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px; 
+}
+.main-desc, .main-story-logo {
+    width: 50%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main-desc .header-button {
+    margin-top: 12px; 
+}
+/* expertise */
+.expertise {
+    height: 100vh;
+
+}
